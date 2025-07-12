@@ -1,0 +1,23 @@
+# input files path, should contain at least one filename
+input_files = ["/path/to/input/file", "/path/to/another/input/file"]
+
+# output file path
+output_file = "/path/to/output/file"
+
+# original genome length
+original_genome_length = 100
+
+# minimal weight of the edge in De Bruijn Graph
+minimal_weight_threshold = 0
+
+# input file type, currently can have one of threes values:
+# BFCounter, Fasta, Fastq
+input_file_type = "Fastq"
+
+# size of the k-mer
+k_mer_size = 40
+
+# whether or not katome should create reverse complementary sequences
+# to the original reads. While this option noticeably slows down
+# the process of assembly it usually will create higher quality output.
+reverse_complement = true
