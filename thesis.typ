@@ -1,5 +1,5 @@
 #{
-  import "@local/wut-thesis:0.1.0": wut-thesis, acknowledgements, figure-outline, table-outline, appendix
+  import "@preview/wut-thesis:0.1.1": wut-thesis, acknowledgements, figure-outline, table-outline, appendix
   import "utils.typ": todo, glossary-outline, show-theorion, show-property
   import "glossary.typ": glossary
   import "@preview/glossarium:0.5.6": make-glossary, register-glossary, print-glossary, gls, glspl

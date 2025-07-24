@@ -21,7 +21,6 @@
       "Wykaz symboli i skrótów"
     }
     heading(numbering: none, glossary-text)
-    show figure: it => [#v(-1em) #it #v(-1em)]
     print-glossary(glossary, show-all: true, disable-back-references: true)
   }
 }
